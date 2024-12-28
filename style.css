@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+.color-container{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: solid black 2px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+button{
+    background-color: rgb(231, 104, 104);
+    padding: 9px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+}
